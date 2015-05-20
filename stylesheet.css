@@ -1,0 +1,16 @@
+.centerPage{
+	position: absolute;
+	top: 26%;
+	left: 42%;
+	bottom: 74%;
+	right: -40%;
+}
+
+#logo {
+	width: 269px; 
+	height: 95px;
+}
+
+#search{
+	top: 42%;
+}
