@@ -1,8 +1,39 @@
-.centerPage{
+body{
 	font-family: Arial, sans-serif;
-	position: relative;
 }
 
+.header{
+	position: relative;
+	float: right;
+	margin-top: 5px;
+
+	font-size: 13px;
+}
+
+a{
+	color: #5C5C5C;
+	text-decoration: none;
+	padding-right: 15px;
+}
+
+a:hover{
+	color: #000000;
+	text-decoration: underline;
+}
+
+/* Photo on the top right for user */
+#userPhoto{
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+
+.centerPage{
+	position: relative;
+	text-decoration: underline;
+}
+
+/*Google Logo*/
 #logo {
 	position: absolute;
 	top: 50%;
@@ -40,7 +71,8 @@
 	transform: translate(-50%, -50%);
 }
 
-.centerPage button{
+/*The Google Search and I'm Feeling Lucky Buttons */
+.centerPage button{ 
 	margin-top: 725px;
 	display: inline-block;
 
@@ -50,4 +82,27 @@
 	font-weight: bold;
 	font-size: 11px;
 	font-color: #222222;
+}
+
+.footer{
+  	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 40px;
+	background-color: #F2F2F2;
+	width: 100%;
+	border: 1px solid #E4E4E4;
+	font-size: 13px;
+}
+
+#leftFooter{
+	margin-top: 10px;
+	margin-left: 20px;
+	float: left;
+}
+
+#rightFooter{
+	margin-top: 10px;
+	margin-left: 1390px;
+	float right;
 }
