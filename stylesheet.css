@@ -1,16 +1,53 @@
 .centerPage{
-	position: absolute;
-	top: 26%;
-	left: 42%;
-	bottom: 74%;
-	right: -40%;
+	font-family: Arial, sans-serif;
+	position: relative;
 }
 
 #logo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	margin-top: 225px;
 	width: 269px; 
 	height: 95px;
 }
 
-#search{
-	top: 42%;
+.centerPage input{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	margin-top: 310px;
+	height: 27px;
+	width: 580px;
+
+	size: 44;
+	border-radius: 0px;
+	border: 1px solid #DADADA;
+}
+
+.centerPage input:hover{
+	border: 1px solid #AFAFAF;
+}
+
+#buttons{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.centerPage button{
+	margin-top: 725px;
+	display: inline-block;
+
+	border-radius: 0px;
+	border: 1px solid #DADADA;
+	height: 30px;
+	font-weight: bold;
+	font-size: 11px;
+	font-color: #222222;
 }
